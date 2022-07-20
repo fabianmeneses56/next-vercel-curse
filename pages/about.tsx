@@ -22,7 +22,7 @@ export default function AboutPage() {
 
 // esto permite anidar layouts
 // cuando se usa esto hay que cambiar el _app.jsx
-AboutPage.getLayout = function getLayout(page) {
+AboutPage.getLayout = function getLayout(page: JSX.Element) {
   return (
     <MainLayout>
       <DarkLayout>{page}</DarkLayout>
